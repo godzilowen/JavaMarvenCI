@@ -19,7 +19,7 @@ public class BufferTest {
 	
 	@Test
 	public void getNumberForSetNumber5() {
-		this.number = 5;
+		this.number = 3;
 		
 		int expected = 5;
 		buf.setNumber(this.number);
