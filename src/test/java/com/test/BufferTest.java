@@ -24,4 +24,13 @@ public class BufferTest {
 		buf.setNumber(this.number);
 		int actual = 3;
 	}
+	
+	@Test
+	public void getNumberForSetNumber5() {
+		this.number = 5;
+		
+		int expected = 5;
+		buf.setNumber(this.number);
+		int actual = 3;
+	}
 }
